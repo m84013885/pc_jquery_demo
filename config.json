@@ -1,0 +1,22 @@
+{
+  "routers": [
+    {
+      "name": "爱施德",
+      "template": "index"
+    },
+    {
+      "name": "回放",
+      "template": "playback"
+    }
+  ],
+  "consoleConfig": false,
+  "netWork": {
+    "port": "8080"
+  },
+  "publicPath": "static/",
+  "myProxy": {
+    "router": "api",
+    "url": "http://cnodejs.org"
+  },
+  "common": "https://static.app-remix.com/lib.1528100878644.js"
+}
